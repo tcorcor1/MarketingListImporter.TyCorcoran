@@ -16,7 +16,7 @@ namespace MarketingListImporter.TyCorcoran
             var memberList = new List<IListMember>();
             var entityType = Type.GetType(entity);
             using (var reader = new StreamReader(csvUploadPath))
-            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+            using (var csv = new CsvReader(reader, CultureInfo.CurrentCulture))
             {
                 memberList = csv.GetRecords(entityType)
                     .Select(csvMember => (IListMember)csvMember)
