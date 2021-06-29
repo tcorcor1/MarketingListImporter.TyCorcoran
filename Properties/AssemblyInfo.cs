@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MarketingListImporter.TyCorcoran")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Ty Corcorcan")]
+[assembly: AssemblyCompany("Ty Corcoran")]
 [assembly: AssemblyProduct("MarketingListImporter.TyCorcoran")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.2021.1.19")]
-[assembly: AssemblyFileVersion("2.2021.1.19")]
+[assembly: AssemblyVersion("3.2021.6.28")]
+[assembly: AssemblyFileVersion("3.2021.6.28")]
